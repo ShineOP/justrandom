@@ -61346,7 +61346,7 @@ function oօᴑ‌ⲟ() {
       clearTimeout(ᴑⲟ.օᴑᴏᴑᴑ);
       ⲟᴏ.о‍ⲟᴏᴏ = ⲟᴏ.о‍ⲟᴏᴏ || οο‍.ⲟⲟᴏοо("token");
       οο‍.o‍οoᴑ().then(ᴏօօᴏo => {
-        ᴑⲟ.ᴏᴑᴏ[ⲟⲟο](ᴑoооⲟ[ᴑⲟⲟᴑօ].stringify([ooⲟ.ⲟᴑ‌.input.value, 5000, 5000, о‍ο.oօoⲟ‌, tokens.token, tokens.tokenid, ⲟᴏ.reconnect.enabled ? 1 : 0, ooⲟ.ᴏᴏо, ooⲟ.ᴑᴑᴑoᴑ, ooⲟ.ᴑօⲟ‍ⲟ, ooⲟ.ᴑⲟoо‌, ooⲟ.oօᴏoⲟ, ooⲟ.ⲟօooᴏ, ⲟoooᴑ === ᴏоо‌ⲟ ? 0 : ⲟoooᴑ, ᴏоᴑ‌ο === undefined ? 0 : ᴏоᴑ‌ο.substring(ᴏоᴑ‌ο.length - 50), oⲟᴑοo, ⲟᴏ.о‍ⲟᴏᴏ, ᴏօօᴏo, ⲟᴏ.ᴏ‍ооⲟ, ⲟᴏ.оοοᴏᴑ]));
+        ᴑⲟ.ᴏᴑᴏ[ⲟⲟο](ᴑoооⲟ[ᴑⲟⲟᴑօ].stringify([ooⲟ.ⲟᴑ‌.input.value, 3000, 3000, о‍ο.oօoⲟ‌, tokens.token, tokens.tokenid, ⲟᴏ.reconnect.enabled ? 1 : 0, ooⲟ.ᴏᴏо, ooⲟ.ᴑᴑᴑoᴑ, ooⲟ.ᴑօⲟ‍ⲟ, ooⲟ.ᴑⲟoо‌, ooⲟ.oօᴏoⲟ, ooⲟ.ⲟօooᴏ, ⲟoooᴑ === ᴏоо‌ⲟ ? 0 : ⲟoooᴑ, ᴏоᴑ‌ο === undefined ? 0 : ᴏоᴑ‌ο.substring(ᴏоᴑ‌ο.length - 50), oⲟᴑοo, ⲟᴏ.о‍ⲟᴏᴏ, ᴏօօᴏo, ⲟᴏ.ᴏ‍ооⲟ, ⲟᴏ.оοοᴏᴑ]));
         ⲟᴏ.о‍ⲟᴏᴏ = o‌ᴑoօ;
         ⲟᴏ.ᴏ‍ооⲟ = o‌ᴑoօ;
         ⲟᴏ.оοοᴏᴑ = ᴑᴏоⲟo;
@@ -65152,8 +65152,8 @@ function ᴑ‍ᴏoο() {
       }
     }
   };
-  this.οоo.w = screen.width * 1.4;
-  this.οоo.ᴏ‍ = screen.height * 1.4;
+  this.οоo.w = 3000; // screen width
+  this.οоo.ᴏ‍ = 3000; // screen height
   this.οоo.օ‍οᴏο = this.οоo.w;
   let ⲟοοoᴑ;
   let оⲟοоᴑ = 208;
