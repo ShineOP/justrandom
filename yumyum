@@ -65652,12 +65652,16 @@ function ᴑ‍ᴏoο() {
             var ооⲟ = ᴑօo[οо];
             if (ооⲟ.ο‍ooо) {
               ᴑօо‍ο["innerText"] = ооⲟ.ⲟᴑ‌;
+              if (Settings.hideScript) {
+              ⲟօ‍ += ᴑօо‍ο["innerHTML"] + " <span style=\"color:green\">#" + οо + "</span><br />";
+              } else {
               ⲟօ‍ +=
                   '<span style="color:white">' + ᴑօо‍ο["innerHTML"] + '</span>' +
                   ' <span style=\"color:green\">#' + οо + '</span>' +
                   ' <span style=\"color:blue\">Level: ' + ооⲟ.level + '</span>' +
-                  ' <span style=\"color:red\">Score: ' + ооⲟ.score + '</span>' +
+                  ' <span style=\"color:red\">Score: ' + ооⲟ.o‍ⲟ + '</span>' +
                   '<br />';
+              };
             }
           }
           this.оⲟο‍ⲟ("list", 1, "List all connected players", ⲟօ‍);
