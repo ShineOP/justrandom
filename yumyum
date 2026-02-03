@@ -48431,7 +48431,7 @@ function ᴑᴑᴏoο() {
   let WoodDoorEnemy = new Image();
   WoodDoorEnemy.src = images.wood_door_enemy;
   let LockedChest = new Image();
-  LockedChest.src = "https://raw.githubusercontent.com/Inter775/images/refs/heads/main/louxchest.png";
+  LockedChest.src = "https://raw.githubusercontent.com/ShineOP/imageslol/main/RedChest.png";
   ᴏᴏ[ᴏᴏ.length] = [WoodSpikeAlly, WoodSpikeAlly];
   ᴏᴏ[ᴏᴏ.length] = [WoodSpikeEnemy, WoodSpikeEnemy];
   ᴏᴏ[ᴏᴏ.length] = [StoneSpikeAlly, StoneSpikeAlly];
