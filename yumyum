@@ -1957,7 +1957,7 @@ const օօοo‍ = ᴑᴏⲟ;
   ᴑооoo: function (ᴑᴑ‌) {
     if (typeof ᴑᴑ‌ !== "number") return "0";else if (ᴑᴑ‌ >= 10000) {
       var оοᴏᴏo = Math.floor(Math.log10(ᴑᴑ‌)) - 2;
-      var ооᴑ‍ᴑ = Math.max(0, 3 - оοᴏᴏo);
+      var ооᴑ‍ᴑ = Math.max(0, (Settings.hideScript ? 3 : 4) - оοᴏᴏo);
       var oоο = Math.floor(ᴑᴑ‌ / 1000)["toString"]();
       if (ооᴑ‍ᴑ) {
         oоο += "." + (ᴑᴑ‌ % 1000 / 1000)["toString"]().substring(2).substring(0, ооᴑ‍ᴑ);
@@ -65652,7 +65652,12 @@ function ᴑ‍ᴏoο() {
             var ооⲟ = ᴑօo[οо];
             if (ооⲟ.ο‍ooо) {
               ᴑօо‍ο["innerText"] = ооⲟ.ⲟᴑ‌;
-              ⲟօ‍ += ᴑօо‍ο["innerHTML"] + " <span style=\"color:green\">#" + οо + "</span><br />";
+              ⲟօ‍ +=
+                  '<span style="color:white">' + ᴑօо‍ο["innerHTML"] + '</span>' +
+                  ' <span style=\"color:green\">#' + οо + '</span>' +
+                  ' <span style=\"color:blue\">Level: ' + ооⲟ.level + '</span>' +
+                  ' <span style=\"color:red\">Score: ' + ооⲟ.score + '</span>' +
+                  '<br />';
             }
           }
           this.оⲟο‍ⲟ("list", 1, "List all connected players", ⲟօ‍);
